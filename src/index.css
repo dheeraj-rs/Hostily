@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: maLDIqapSCOBtin;
+    src: url(./assets/LDIqapSCOBt_aeQQ7ftydoa0gebelJo02SuCgQ.woff2);
+}
+
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: maLDIqapSCOBtin;
+}
+.bg_image{
+    background-image: url(./assets/homebg.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.bg_img1{
+    background-image: url(./assets/feature-1.jpg);
+    background-size: cover;
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;  */
+}
+.bg_img2{
+    background-image: url(./assets/feature-2.jpg);
+    background-size: cover;
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;  */
+}
+.bg_img3{
+    background-image: url(./assets/feature-3.jpg);
+    background-size: cover;
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;  */
+}
+.bg_img4{
+    /* width: 50%;
+    height: 100%; */
+    background-image: url(./assets/feature-4.jpg);
+    background-size: cover;
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;  */
+}
+
+/* MovingDiv.css */
+.moving-div {
+    height: 100px;
+    width: 200px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    top: 0;
+    opacity: 1;
+    transition: top 1s ease, opacity 1s ease;
+  }
+  
+  .moving-div.active {
+    top: 100px; 
+    opacity: 0;
+  }
+  
